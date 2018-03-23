@@ -2,7 +2,7 @@
 
 // Przykład 1 - tworzenie klasy
 
-namespace Example
+namespace Example._01
 {
     public class Osoba
     {

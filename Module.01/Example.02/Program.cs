@@ -1,8 +1,8 @@
 ﻿using System;
 
-// Przykład 1 - tworzenie klasy
+// Przykład 2 - klasy i metody częściowe
 
-namespace Example._01
+namespace Example._02
 {
     class Program
     {
@@ -25,8 +25,12 @@ namespace Example._01
 
             Console.ReadKey();
 
-            Osoba dziecko = new Osoba();
-            dziecko.UstawRokUrodzenia(DateTime.Now.Year - 16); // <- osoba niepełnoletnia
+            //Osoba dziecko = new Osoba();
+            //dziecko.UstawRokUrodzenia(DateTime.Now.Year - 16); // <- osoba niepełnoletnia
+
+            m.Zapisz();
+            m.Zapisz();
+            Console.WriteLine("Ilość zapisów do pliku: {0}", m.PobierzIloscZapisow());
         }
     }
 }
